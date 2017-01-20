@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/expand_icon_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/expand_icon_left"
+            android:onClick="clickView"/>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_time"
+            android:background="@color/rb_gcs_bg"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <RadioGroup
+                android:id="@+id/rg_gcs_duration"
+                android:layout_width="204dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            </RadioGroup>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/expand_icon_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/expand_icon_right"
+            android:onClick="clickView"/>
+    </LinearLayout>
+
+    <com.st.cms.widget.StatesView
+        android:id="@+id/statesview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>

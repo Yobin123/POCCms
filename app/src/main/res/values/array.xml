@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hospitals">
+        <item>Mount Alvernia</item>
+        <item>Tan Tock Seng</item>
+        <item>Khoo Teck Phuat</item>
+    </string-array>
+    <string-array name="hospital1">
+        <item>ST0001</item>
+        <item>ST0002</item>
+    </string-array>
+    <string-array name="hospital2">
+        <item>ST0003</item>
+        <item>ST0004</item>
+    </string-array>
+    <string-array name="hospital3">
+        <item>ST0005</item>
+        <item>ST0006</item>
+    </string-array>
+
+    <string-array name="eye_open">
+        <item>Unable to access(opt)</item>
+        <item>No eye opening(1pt)</item>
+        <item>Eye opening in response to pain(2pt)</item>
+        <item>Eye opening in response to speech(3pt)</item>
+        <item>Spontaneous eye opening(4pt)</item>
+    </string-array>
+    <string-array name="verbal_response">
+        <item>Unable to access(opt)</item>
+        <item>None(1pt)</item>
+        <item>Incomprehensible speech(2pt)</item>
+        <item>Inappropriate speech(3pt)</item>
+        <item>Confused conversation(4pt)</item>
+        <item>Oriented(5pt)</item>
+    </string-array>
+    <string-array name="motor_response">
+        <item>Unable to access(opt)</item>
+        <item>No response to pain(1pt)</item>
+        <item>Extensors posturing to pain(2pt)</item>
+        <item>Abnormal flexor response to pain(3pt)</item>
+        <item>Withdraws to pain(4pt)</item>
+        <item>Localises to pain stimulus(5pt)</item>
+        <item>Obeying commands(6pt)</item>
+    </string-array>
+    <string-array name="gcs_tested_time">
+        <item>0-1am</item>
+        <item>1-2am</item>
+        <item>2-3am</item>
+        <item>3-4am</item>
+        <item>4-5am</item>
+        <item>5-6am</item>
+        <item>6-7am</item>
+        <item>7-8am</item>
+        <item>8-9am</item>
+        <item>9-10am</item>
+        <item>10-11am</item>
+        <item>11-12am</item>
+        <item>12-1pm</item>
+        <item>1-2pm</item>
+        <item>2-3pm</item>
+        <item>3-4pm</item>
+        <item>4-5pm</item>
+        <item>5-6pm</item>
+        <item>6-7pm</item>
+        <item>7-8pm</item>
+        <item>8-9pm</item>
+        <item>9-10pm</item>
+        <item>10-11pm</item>
+        <item>11-12pm</item>
+    </string-array>
+    <string-array name="zone_loc">
+        <item>Triage</item>
+        <item>First Aid Point</item>
+        <item>Ambulance Point</item>
+        <item>Hospital</item>
+    </string-array>
+</resources>

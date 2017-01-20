@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_bar_navi"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/album_header_bar_height"
+        android:background="@color/selected"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/header_bar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="@dimen/title_view_left_back_padding_left"
+            android:paddingRight="@dimen/title_view_left_back_padding_right"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_back_02_selector" />
+
+        <RadioGroup
+            android:id="@+id/rg_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:background="@drawable/btn_album"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbt_album_picture"
+                style="@style/radiobutton_album_camera"
+                android:gravity="center"
+                android:layout_marginRight="6dp"
+                android:text="@string/album_picture" />
+
+            <RadioButton
+                android:id="@+id/rbt_album_video"
+                android:gravity="center"
+                style="@style/radiobutton_album_camera"
+                android:text="@string/album_video" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</LinearLayout>

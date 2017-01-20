@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">POCCms</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="default_text">default</string>
+    <!--prioritise-->
+    <string name="prioritise_id">ID: </string>
+    <string name="prioritise_label">Prioritise</string>
+    <string name="prioritise_zone">Zone Location: </string>
+    <string name="prioritise_hint">Please severity level:</string>
+    <string name="retrieve_tag">Retrieve Tag</string>
+    <string name="prioritise_completed">Prioritise Completed.</string>
+    <string name="ok">OK</string>
+    <!--radio button-->
+    <string name="mark_injury">Mark Injury</string>
+    <string name="treatment">TreatMent</string>
+    <string name="vital_signs">Vital Signs</string>
+    <string name="gcs">GCS</string>
+
+    <!--text view button of list view-->
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+
+    <!--zone2 mark injury-->
+    <string name="mark_info">Information has saved to tag.</string>
+    <string name="blood_transfusion">Blood Transfusion</string>
+    <string name="blood_prompt">Blood Type</string>
+    <string name="treatment_prompt">Add a treatment</string>
+    <string name="drug_prompt">Drug applied</string>
+    <string name="qty">Qty</string>
+    <string name="status">Status:</string>
+    <string name="available">Availabe</string>
+    <string name="original_qty">Original Qty:</string>
+    <string name="assist_res">+ 0</string>
+    <string name="used_res">- 0</string>
+    <string name="reader_status">Reader Status: </string>
+    <string name="connect">Connected</string>
+    <string name="illustration">Your mobile device is searching for and can be discovered by Bluetooth devices.</string>
+    <string name="readsigns">Read Vital Signs</string>
+    <string name="oximeter_status">Ready to pair</string>
+
+    <string name="log_readings">Readings</string>
+    <string name="log_date">Date</string>
+    <string name="log_time">Time</string>
+    <string name="tv_confirm">Confirm Departure</string>
+    <string name="convey_recommended">Recommended Hospital:  </string>
+    <string name="operating_theatre">Operating Theatre:  -</string>
+    <string name="beds_available">Beds Available:  </string>
+    <string name="ward_type">Ward Type:  </string>
+    <string name="estimated_time">Estimated Arrival Time:  </string>
+    <string name="vehicle_plate_no">Vehicle Plate No:  </string>
+
+    <!-- 存储文件文件夹 -->
+    <!--Storage Files' Dir-->
+    <string name="Files">Files</string>
+    <!-- Pictures'Dir -->
+    <string name="Image">Image</string>
+    <!-- Thumbnail'Dir -->
+    <string name="Thumbnail">Thumbnail</string>
+    <!-- Videos'Dir -->
+    <string name="Video">Video</string>
+
+    <string name="album_enter_select">Select</string>
+    <string name="api_cancel">Cancel</string>
+    <string name="album_photo_select_tip">Items</string>
+    <string name="album_phoot_select_all">All</string>
+    <string name="album_phoot_unselect_all">Cancel All</string>
+    <string name="album_title">Album</string>
+    <string name="common_delete">Delete</string>
+    <string name="album_picture">Pictures</string>
+    <string name="album_video">Videos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="none_text"> - </string>
+    <string name="po_reading"><![CDATA[Pules & Oxygen readings:]]></string>
+    <string name="add_injury">Add a injury.</string>
+    <string name="current_lv">Current Level:</string>
+    <string name="is_suspect">suspect</string>
+    <string name="bag_id">Bag ID</string>
+
+
+</resources>

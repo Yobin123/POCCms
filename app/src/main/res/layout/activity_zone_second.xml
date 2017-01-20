@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <FrameLayout
+        android:id="@+id/layout_container_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+
+    <RadioGroup
+        android:id="@+id/rg_id_zone"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <RadioButton
+            android:id="@+id/rb_face_zone"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/face_selector_zone2"
+            android:text="Face ID"
+            android:textColor="@color/selected"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_print_zone"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/print_selector_zone2"
+            android:text="FingerPrint ID"
+            android:textColor="@color/non_selected"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_personal_zone"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/personal_selector_zone2"
+            android:text="Personal ID"
+            android:textColor="@color/non_selected"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_log_zone"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/history_selector_zone2"
+            android:text="Log History"
+            android:textColor="@color/non_selected"
+            android:textSize="12sp" />
+    </RadioGroup>
+</LinearLayout>

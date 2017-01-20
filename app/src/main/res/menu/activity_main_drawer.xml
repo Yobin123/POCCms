@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Import" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    <!--</group>-->
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/menu_prioritese"
+                android:icon="@mipmap/prioritise"
+                android:title="Prioritise" />
+            <item
+                android:id="@+id/menu_identify"
+                android:icon="@mipmap/identify"
+                android:title="Identify"/>
+            <item
+                android:id="@+id/menu_treatment"
+                android:icon="@mipmap/monitor"
+                android:title="Treatment"/>
+            <item
+                android:id="@+id/menu_convey"
+                android:icon="@mipmap/convey"
+                android:title="Convey"/>
+        </menu>
+    </item>
+    <!--<item android:title="Scan">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/menu_scan"-->
+                <!--android:title="Scan NFC"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/menu_about"
+                android:title="-" />
+        </menu>
+    </item>
+</menu>

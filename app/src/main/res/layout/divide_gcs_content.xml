@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_top"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.7"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        style="@style/divide_gcs_content"
+        android:background="#00BCD4">
+
+        <TextView
+
+            android:id="@+id/tv_gcs_eyeopen"
+            style="@style/divide_gcs_content_text"
+            android:text="-" />
+
+        <TextView
+            style="@style/divide_gcs_content_text"
+            android:layout_marginTop="10dp"
+            android:text="Eye opening" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/divide_gcs_content"
+        android:background="#27CF5E">
+
+        <TextView
+            android:id="@+id/tv_gcs_verbal"
+            style="@style/divide_gcs_content_text"
+            android:text="-" />
+
+        <TextView
+            style="@style/divide_gcs_content_text"
+            android:layout_marginTop="10dp"
+            android:text="Verbal response" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/divide_gcs_content"
+        android:background="#FFC107">
+
+        <TextView
+            android:id="@+id/tv_gcs_motor"
+            style="@style/divide_gcs_content_text"
+            android:text="-" />
+
+        <TextView
+            style="@style/divide_gcs_content_text"
+            android:layout_marginTop="10dp"
+            android:text="Motor response" />
+    </LinearLayout>
+</LinearLayout>
+
+    

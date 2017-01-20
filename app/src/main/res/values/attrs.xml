@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mtv_text" format="reference"/>
+    <attr name="mtv_textSize" format="dimension"/>
+    <attr name="mtv_textColor" format="reference"/>
+    <attr name="mtv_backgroundColor" format="reference"/>
+    <attr name="mtv_src" format="reference"/>
+    <declare-styleable name="MedicalSelectView">
+        <attr name="mtv_text"/>
+        <attr name="mtv_textSize"/>
+        <attr name="mtv_textColor"/>
+        <attr name="mtv_backgroundColor"/>
+        <attr name="mtv_src"/>
+    </declare-styleable>
+</resources>

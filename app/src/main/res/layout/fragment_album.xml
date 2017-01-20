@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.linj.album.view.AlbumGridView
+            android:id="@+id/albumview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:gravity="center"
+            android:horizontalSpacing="4dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:padding="4dip"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="4dip" />
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Data"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:textColor="#f00"/>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/album_bottom_bar"
+        layout="@layout/album_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>

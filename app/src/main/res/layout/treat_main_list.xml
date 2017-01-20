@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RadioGroup
+        android:id="@+id/rg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/treat_tab_marker"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/treat_tab_marker"
+            android:textColor="@color/selected"
+            android:textSize="14sp"
+            android:text="@string/mark_injury"/>
+
+        <RadioButton
+            android:id="@+id/treat_tab_treatment"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/treat_tab_treatment"
+            android:textColor="@color/non_selected"
+            android:textSize="12sp"
+            android:text="@string/treatment"/>
+
+        <RadioButton
+            android:id="@+id/treat_tab_signs"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/treat_tab_signs"
+            android:textColor="@color/non_selected"
+            android:textSize="12sp"
+            android:text="@string/vital_signs"/>
+
+        <RadioButton
+            android:id="@+id/treat_tab_gcs"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/treat_tab_gcs"
+            android:textColor="@color/non_selected"
+            android:textSize="12sp"
+            android:text="@string/gcs"/>
+
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/layout_container_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rg_tab_bar"
+        android:layout_alignParentTop="true"
+        />
+</RelativeLayout>

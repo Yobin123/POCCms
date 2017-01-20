@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/popup_ensure_shape">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/alert"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/tv_content_style"
+        android:gravity="center"
+        android:text="Please get close to NFC tag to ensure info can be saved to tag."/>
+    <Button
+        android:id="@+id/btn_save_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_save_shape"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Save"/>
+</LinearLayout>

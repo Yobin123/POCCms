@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/rb_listview_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/checkbox_edit"
+        android:button="@null"
+        android:focusable="false"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+         />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_listview_icon"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_toRightOf="@+id/rb_listview_select"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_listview_id"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_toRightOf="@id/iv_listview_icon"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:textSize="16sp"-->
+    <!--android:text="ID:123456S"/>-->
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_listview_pic"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:src="@mipmap/expand_icon"/>-->
+    <include layout="@layout/victim_list" />
+
+
+</LinearLayout>

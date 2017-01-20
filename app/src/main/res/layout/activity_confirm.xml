@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/confirm_green"
+    android:paddingTop="64dp"
+    android:paddingBottom="64dp">
+    <FrameLayout
+        android:id="@+id/fl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@mipmap/circle_with_check_symbol"
+            android:layout_gravity="center" />
+        <ImageView
+            android:id="@+id/iv_sign"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/checked_symbol"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/tv_prioritise_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_text"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/fl_top"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_text"
+        android:theme="@style/tv_button_style"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+</RelativeLayout>

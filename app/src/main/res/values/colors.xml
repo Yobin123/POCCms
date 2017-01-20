@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#14A4F2</color>
+    <color name="colorPrimaryDark">#00BFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="tangerine">#FF3300</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#66FF33</color>
+    <color name="lime">#C9C9C9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#FFFFFFFF</color>
+    <color name="confirm_green">#66FF00</color>
+
+    <!--底部菜单栏文字颜色-->
+    <color name="non_selected">@color/black</color>
+    <color name="selected">#14A4F2</color>
+    <color name="blue">#66B3FF</color>
+
+    <!--treatment medical assign -->
+    <color name="medicalLime">@color/lime</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_300">#ffe0e0e0</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="assist_res_green">#00D167</color>
+    <color name="used_res_orange">#FEC52B</color>
+    <color name="status_green">#4BD8C3</color>
+
+    <color name="light_blue">#80D2F9</color>
+    
+    <!--sings broken line -->
+    <color name="light_green">#ff71E1A4</color>
+    <color name="green_to_blue">#ff36C0C1</color>
+    <color name="dark_blue">#ff1F93F8</color>
+
+
+
+    <!--图片是否选中的颜色-->
+    <!--<color name="selected">#03A9F4</color>-->
+    <color name="unselected">#333333</color>
+
+
+    <color name="main_menu_bg">#aa111213</color>
+    <color name="common_title_bg">#aa111213</color>
+    <color name="primary_title_text_color">#ff888888</color>
+    <color name="common_title_text">#ff565555</color>
+    <color name="common_text_yellow">#ffffe049</color>
+    <color name="album_item_bg">#fffcfcfd</color>
+    <color name="video_playter_bg">#333333</color>
+
+    <color name="eye_open_bg">#00BCD4</color>
+    <color name="verbal_response_bg">#27CF5E</color>
+    <color name="motor_response_bg">#FFC107</color>
+    <color name="rb_gcs_bg">#D7D7D7</color>
+</resources>

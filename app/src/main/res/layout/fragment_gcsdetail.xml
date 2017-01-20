@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <include layout="@layout/divide_gcs_content" />
+
+    <include layout="@layout/total_gcs_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_eyeopen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Eye opening:"
+            android:textSize="@dimen/marke_size"
+            android:textStyle="bold" />
+
+        <Spinner
+            style="@style/spinner_theme"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_eyeopen"
+            android:layout_below="@+id/tv_eyeopen"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:entries="@array/eye_open" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+        <TextView
+            android:id="@+id/tv_verbal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+
+            android:text="Verbal response:"
+            android:textSize="@dimen/marke_size"
+            android:textStyle="bold" />
+
+        <Spinner
+            style="@style/spinner_theme"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_verbal"
+            android:layout_below="@+id/tv_verbal"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:entries="@array/verbal_response" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4">
+
+        <TextView
+            android:id="@+id/tv_motor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Motor response:"
+            android:textSize="@dimen/marke_size"
+            android:textStyle="bold" />
+
+        <Spinner
+            style="@style/spinner_theme"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_motor"
+            android:layout_below="@+id/tv_motor"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:entries="@array/motor_response" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

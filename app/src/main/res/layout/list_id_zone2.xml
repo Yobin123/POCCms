@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#03A9F4"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:text="Edit"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#EEF3FA"/>
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lv_id_zone2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/bt_delete_zone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textSize="14sp"
+        android:background="#03A9F4"
+        android:textColor="#FFFFFF"
+        android:text="Delete Selected(0)"
+        android:visibility="gone"/>
+</LinearLayout>
